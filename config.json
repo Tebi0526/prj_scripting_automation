@@ -1,0 +1,8 @@
+{
+  "symbols": ["AAPL", "MSFT", "NVDA", "TSLA", "SAP.DE", "NESN.SW", "UBSG.SW", "ZURN.SW"],
+  "min_volume": 0,
+  "sort_by": "change_percent",
+  "output_dir": "output",
+  "basename": "boersendaten",
+  "retries": 2
+}
