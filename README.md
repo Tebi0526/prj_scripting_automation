@@ -102,6 +102,26 @@ $trigger = New-ScheduledTaskTrigger -Daily -At 18:10
 Register-ScheduledTask -TaskName "Boersendaten" -Action $action -Trigger $trigger
 ```
 
+## Dokumentation
+
+| Datei | Inhalt |
+| --- | --- |
+| `docs/Kurzbeschreibung.md` / `.pdf` | Kurzbeschreibung für die Abgabe: Problemstellung, Vorgehen, Ergebnisse |
+| `docs/Technische_Dokumentation.md` / `.pdf` | ausführliche technische Dokumentation |
+| `docs/klassendiagramm.png` | Klassendiagramm |
+| `docs/sequenzdiagramm.png` | Sequenzdiagramm eines Programmlaufs |
+| `docs/beispiel/` | Beispielausgaben eines Demo-Laufs |
+
+Die Diagramme und die PDF-Fassungen werden aus dem Code beziehungsweise aus den
+Markdown-Dateien erzeugt:
+
+```bash
+pip install graphviz reportlab pillow    # zusätzlich das Systempaket graphviz
+python tools/klassendiagramm.py
+python tools/sequenzdiagramm.py
+python tools/md_zu_pdf.py docs/Technische_Dokumentation.md docs/Kurzbeschreibung.md
+```
+
 ## Tests
 
 ```bash

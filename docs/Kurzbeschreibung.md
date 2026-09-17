@@ -1,7 +1,14 @@
 # Kurzbeschreibung: Webautomatisierung mittels Scripting
 
 **Projekt:** Automatisierter Abruf und Auswertung von Börsendaten
-**Sprache / Werkzeuge:** Python 3.12, yfinance, openpyxl, matplotlib
+
+**Autoren:** David Stalder, Thibaud Ueckert
+
+**Schule:** TEKO Schweizerische Fachschule AG
+
+**Sprache und Werkzeuge:** Python 3.12, yfinance, openpyxl, matplotlib
+
+**Repository:** https://github.com/Tebi0526/prj_scripting_automation
 
 ## 1. Problemstellung
 
